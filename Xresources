@@ -236,55 +236,5 @@ URxvt.keysym.Shift-Control-Down:  \033[1;6B
 ! -xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso10646-1
 
 URxvt.transparent: true
-URxvt.shading:20
-
-! Included this so you know how to make your foreground not match the color of your background
-URxvt.foreground: #eeeeee
-
-
-
-
-
-rofi.modi:                           ssh,window,drun,run
-rofi.sidebar-mode:                   true
-rofi.terminal:                       termite
-rofi.ssh-client:                     ssh
-rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
-rofi.opacity:                        70
-rofi.width:                          100
-rofi.lines:                          10
-rofi.columns:                        1
-rofi.font:                           Inconsolata 24
-rofi.fg:                             #5d729f
-rofi.bg:                             #5d729f
-rofi.fg-active:                      #34405a
-rofi.fg-urgent:                      #34405a
-rofi.hlfg-active:                    #5e73a0
-rofi.hlfg-urgent:                    #5e73a0
-rofi.bg-active:                      #34405a
-rofi.bg-urgent:                      #34405a
-rofi.hlbg-active:                    #5d729f
-rofi.hlbg-urgent:                    #5d729f
-rofi.bgalt:                          #5671a0
-rofi.hlfg:                           #34405a
-rofi.hlbg:                           #34405a
-rofi.bc:                             #789ee1
-! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
-rofi.color-normal: #000000,  #FFFFFF,  #000000,  #00a833,  #FFFFFF
-rofi.color-normal: #000000,  #FFFFFF,  #000000,  #00a833,  #FFFFFF
-rofi.color-normal: #000000,  #FFFFFF,  #000000,  #00a833,  #FFFFFF
-
-!                  'background', 'border'
-rofi.color-window: #000000,      #000000
-rofi.bw:                             10
-rofi.location:                       0
-rofi.padding:                        800
-rofi.levenshtein-sort:               true
-rofi.case-sensitive:                 false
-rofi.fuzzy:                          false
-rofi.line-margin:                    2
-rofi.separator-style:                solid
-rofi.hide-scrollbar:                 true
-rofi.markup-rows:                    false
-rofi.scrollbar-width:                8
+URxvt.shading:10
 
